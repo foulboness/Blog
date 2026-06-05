@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Formatted</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="newsletter.js">
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="app-container">
+
+  <div class="site-container">
+
+  <!-- HOME -->
+  <main id="homePage">
+
+<header class="editorial-header">
+
+  <div class="brand-block">
+    <h1>Formatted</h1>
+    <p>Writing, ideas & modern publishing</p>
+  </div>
+
+<div class="header-actions">
+
+  <a href="about.html" class="follow-btn">Infomation</a>
+
+  <a href="newsletter.html" class="nav-btn">Newsletter</a>
+
+</div>
+
+</header>
+
+    <div id="feed" class="feed"></div>
+
+  </main>
+
+  <!-- ARTICLE -->
+  <main id="articlePage" class="article-page hidden">
+
+    <button onclick="goHome()" class="back-btn">← Back</button>
+
+    <img id="articleImage" class="article-cover" alt="Article cover">
+
+    <h1 id="title"></h1>
+
+    <div id="meta"></div>
+
+    <article id="content"></article>
+
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

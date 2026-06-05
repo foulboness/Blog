@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formatted Newsletter</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app-container">
+
+  <div class="site-container">
+
+    <a href="index.html" class="back-btn">← Back</a>
+  <!-- LIST VIEW -->
+<div id="newsletterList">
+
+  <header class="newsletter-header">
+    <h1>The Formatted Newsletter</h1>
+    <p>A weekly collection of ideas, writing, and systems thinking</p>
+  </header>
+
+  <div id="newsletterFeed"></div>
+
+</div>
+
+  <!-- READER VIEW -->
+  <div id="newsletterReader" class="hidden">
+
+    <div class="newsletter-meta" id="nlDate"></div>
+
+    <h1 id="nlTitle"></h1>
+
+    <p id="nlSubtitle"></p>
+
+    <article id="nlContent"></article>
+
+  </div>
+
+</div>
+
+<script src="newsletter.js"></script>
+
+</body>
+</html>
